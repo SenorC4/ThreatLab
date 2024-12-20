@@ -1,4 +1,5 @@
 #!/bin/bash
+#Used to install mitre caldera 5.0.0 on ubuntu 24.04.1 
 
 sudo apt update && apt upgrade -y
 sudo apt install git python3 python3-pip npmsudo golang 
