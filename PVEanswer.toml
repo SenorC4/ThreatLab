@@ -1,3 +1,4 @@
+#sudo proxmox-auto-install-assistant prepare-iso proxmox.iso --fetch-from iso --answer-file PVEanswer.toml
 [global]
 keyboard = "en-us"
 country = "us"
