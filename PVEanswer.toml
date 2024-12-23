@@ -18,4 +18,4 @@ disk_list = ["sda"]
 
 [first-boot]
 source = "from-iso"
-ordering = "before-network"
+ordering = "fully-up"
