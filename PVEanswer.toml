@@ -1,0 +1,20 @@
+[global]
+keyboard = "en-us"
+country = "us"
+fqdn = "lab.lukelecain.com"
+mailto = "root@lab.lukelecain.com"
+timezone = "America/New_York"
+root_password = "Simspace1!"
+root_ssh_keys = []
+
+[network]
+source = "from-dhcp"
+
+[disk-setup]
+filesystem = "zfs"
+zfs.raid = "raid1"
+disk_list = ["sda"]
+
+[first-boot]
+source = "from-iso"
+ordering = "before-network"
